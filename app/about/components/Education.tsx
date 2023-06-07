@@ -4,6 +4,7 @@ import { useRef } from "react";
 import EducationDetails from "./EducationDetails"
 
 import { motion, useScroll } from "framer-motion"
+import Header from "@/app/components/Header";
 
 const Education = () => {
   const ref = useRef<HTMLDivElement>(null);
@@ -15,19 +16,17 @@ const Education = () => {
   );
 
   return (
-    <div className="my-64">
-      <h2 className="font-bold text-6xl mb-32 w-full text-center md:text-6xl
-      xs:text-4xl md:mb-16">
-        Education
-      </h2>
+    <div className="my-32 px-8 md:p-32">
+      <Header title="Education" />
 
       <div ref={ref} className="w-full mx-auto relative md:w-full">
         <motion.div 
           style={{ scaleY: scrollYProgress }}
           className="absolute top-0 w-[4px] h-full bg-dark origin-top
-          dark:bg-light  left-[35px]"
+          dark:bg-light left-[35px]"
         />
-        <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+        <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2
+        pr-[35px]">
           <EducationDetails 
             type="Bachelor Of Science In Computer Science"
             time="2016-2020"

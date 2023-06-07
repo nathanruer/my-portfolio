@@ -6,7 +6,7 @@ import Education from './components/Education';
 const Home = () => {
   return (
     <main className='flex w-full flex-col items-center justify-center dark:text-light'>
-      <div className="w-full h-full inline-block p-16 md:p-32">
+      <div className="w-full h-full inline-block py-16">
         
         <Skills />
 

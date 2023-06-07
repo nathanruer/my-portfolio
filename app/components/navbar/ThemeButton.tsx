@@ -23,7 +23,7 @@ const ThemeButton:React.FC<ThemeButtonProps> = ({
       border border-solid hover:scale-110 transition duration-300 ease-in-out
       bg-dark dark:bg-light
       ${theme === "light" ? "text-light border-light" : "text-dark border-dark"}
-      ${mobile ? 'bg-transparent' : ''}
+      ${mobile && '!bg-transparent'}
       ${className}`}
     >
       {theme === "dark" ? <SunIcon /> : <MoonIcon />}

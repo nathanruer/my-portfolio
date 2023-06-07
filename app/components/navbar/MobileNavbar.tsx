@@ -12,8 +12,8 @@ const MobileNavbar = () => {
   }
   return (
     <>
-      <header className="w-full px-32 py-8 font-medium flex items-center justify-between
-      text-dark dark:text-light relative lg:px-16 md:px-12 sm:px-8">
+      <header className="w-full p-8 md:px-12 xl:px-32 lg:px-16
+      font-medium flex items-center justify-between text-dark dark:text-light relative">
         <button 
           className="flex-col justify-center items-center" 
           onClick={handleClick}
