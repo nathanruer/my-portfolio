@@ -17,7 +17,7 @@ const Education = () => {
 
   return (
     <div className="my-32 px-8 md:p-32">
-      <Header title="Education" />
+      <Header title="Education" className="mb-16 md:mb-32"/>
 
       <div ref={ref} className="w-full mx-auto relative md:w-full">
         <motion.div 

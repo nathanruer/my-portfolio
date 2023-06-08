@@ -17,7 +17,7 @@ const Experience = () => {
 
   return (
     <div className="mt-32 px-8 md:p-32">
-      <Header title="Experience" />
+      <Header title="Experience" className="mb-16 w-full text-center md:mb-32" />
 
       <div ref={ref} className="w-full mx-auto relative ">
         <motion.div 

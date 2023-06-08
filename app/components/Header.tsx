@@ -8,7 +8,8 @@ const Header:React.FC<HeaderProps> = ({
   className,
 }) => {
   return (
-    <h2 className={`font-bold text-4xl sm:text-6xl mb-16 w-full text-center md:mb-32
+    <h2 className={`font-bold text-2xl sm:text-4xl w-full text-center
+    text-dark/80 dark:text-light/80
     ${className}`}>
       {title}
     </h2>
