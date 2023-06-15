@@ -53,7 +53,7 @@ const FeaturedProject:React.FC<FeaturedProjectProps> = ({
             target="_blank"
           >
             <AiFillGithub className="w-10 h-10 xl:w-12 xl:h-12 cursor-pointer
-            text-dark dark:text-light" />
+            text-dark dark:text-light hover:scale-110 transition duration-300 ease-in-out" />
           </Link>
           <Link
             href={link}

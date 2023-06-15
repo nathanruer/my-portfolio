@@ -1,6 +1,6 @@
 import Footer from './components/Footer'
 import Navbar from './components/navbar/Navbar'
-import Provider from './context/ThemeProvider'
+import Provider from '../context/ThemeProvider'
 import './globals.css'
 import { Montserrat } from 'next/font/google'
 

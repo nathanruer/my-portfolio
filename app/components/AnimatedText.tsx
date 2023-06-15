@@ -43,7 +43,7 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({
     justify-center text-center overflow-hidden">
       <motion.h1 
         className={`inline-block w-full font-bold capitalize 
-        text-4xl sm:text-6xl ${className}`}
+        text-4xl sm:text-6xl p-1 ${className}`}
         variants={quoteVariant}
         initial="initial"
         animate="animate"

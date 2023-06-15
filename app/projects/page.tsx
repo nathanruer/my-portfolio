@@ -6,6 +6,7 @@ import Project from "./components/Project";
 import crypto_screener_application from "@/public/images/crypto_screener_application.png";
 import airbnb_clone from "@/public/images/airbnb_clone.png";
 import swap_app from "@/public/images/swap_app.png";
+import carhub_app from "@/public/images/carhub_app.png"
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
           <FeaturedProject 
             type="Featured Project"
             title="Crypto Screener Application"
-            summary="The described website project utilizes the Binance API, Next.js, Tailwind, and TypeScript to display real-time prices of selected cryptocurrencies available on the Binance platform. Next.js serves as the framework for building a performant and dynamic web application, while Tailwind simplifies the UI design with its utility classes. TypeScript adds static typing to enhance development reliability. The Binance API integration retrieves the necessary data for displaying real-time prices on the website."
+            summary="The described website project utilizes the Binance API, Next.js, Tailwind, and TypeScript to display real-time prices of selected cryptocurrencies available on the Binance platform."
             img={crypto_screener_application}
             link="https://crypto-screener-application-nathanruer.vercel.app"
             github="https://github.com/nathanruer/crypto-prices-binance"
@@ -38,6 +39,13 @@ const Home = () => {
               title="Web3 Swap App"
               img={swap_app}
               github="https://github.com/nathanruer/web3-swap-app-v2"
+            />
+            <Project 
+              type="Website"
+              title="Carhub App"
+              img={carhub_app}
+              link="https://carhub-nathanruer.vercel.app/"
+              github="https://github.com/nathanruer/carhub-app"
             />
           </div>
         </div>

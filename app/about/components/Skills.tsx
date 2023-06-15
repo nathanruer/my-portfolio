@@ -46,16 +46,16 @@ const Skills = () => {
         <SkillItemLg
           name="Next.js" 
           x="20vw"
-          y="-15vw"
+          y="-12.5vw"
         />
         <SkillItemLg
           name="Node.js" 
-          x="-27.5vw"
+          x="-32.5vw"
           y="5vw"
         />
         <SkillItemLg
           name="Tailwind CSS" 
-          x="25vw"
+          x="30vw"
           y="5vw"
         />
         <SkillItemLg
